@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y ninja-build libcurl4-openssl-dev openjdk-17-jre-headless chromium-driver
+
+      - name: Download Selenium Server
+        run: curl -L -o selenium-server.jar https://selenium-release.storage.googleapis.com/4.16/selenium-server-4.16.1.jar
+
+      - name: Start Selenium Server
+        run: java -jar selenium-server.jar standalone & sleep 10  # Starta i bakgrunden, vänta 10 sek
+
+      - name: Configure CMake
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release -G Ninja
+
+      - name: Build
+        run: cmake --build build --config Release
+
+      - name: Run tests
+        working-directory: build
+        run: ctest -C Release -V
