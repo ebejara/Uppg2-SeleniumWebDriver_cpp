@@ -1,49 +1,49 @@
 Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
 Change Dir: 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a2824/fast
-C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a2824.dir\build.make CMakeFiles/cmTC_a2824.dir/build
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6a0aa/fast
+C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6a0aa.dir\build.make CMakeFiles/cmTC_6a0aa.dir/build
 mingw32-make[1]: Entering directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2824.dir/CurlTests.c.obj
-C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_a2824.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
+Building C object CMakeFiles/cmTC_6a0aa.dir/CurlTests.c.obj
+C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_6a0aa.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:228:13: error: implicit declaration of function 'IoctlSocket'; did you mean 'ioctlsocket'? [-Wimplicit-function-declaration]
   228 |     if(0 != IoctlSocket(0, 0, 0))
       |             ^~~~~~~~~~~
       |             ioctlsocket
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:228:13: warning: nested extern declaration of 'IoctlSocket' [-Wnested-externs]
-mingw32-make[1]: *** [CMakeFiles\cmTC_a2824.dir\build.make:80: CMakeFiles/cmTC_a2824.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: *** [CMakeFiles\cmTC_6a0aa.dir\build.make:80: CMakeFiles/cmTC_6a0aa.dir/CurlTests.c.obj] Error 1
 mingw32-make[1]: Leaving directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:133: cmTC_a2824/fast] Error 2
+mingw32-make: *** [Makefile:133: cmTC_6a0aa/fast] Error 2
 
 
 Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
 Change Dir: 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_51825/fast
-C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_51825.dir\build.make CMakeFiles/cmTC_51825.dir/build
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f2645/fast
+C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f2645.dir\build.make CMakeFiles/cmTC_f2645.dir/build
 mingw32-make[1]: Entering directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_51825.dir/CurlTests.c.obj
-C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_51825.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
+Building C object CMakeFiles/cmTC_f2645.dir/CurlTests.c.obj
+C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_f2645.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:252:17: error: implicit declaration of function 'IoctlSocket'; did you mean 'ioctlsocket'? [-Wimplicit-function-declaration]
   252 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
       |                 ^~~~~~~~~~~
       |                 ioctlsocket
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:252:17: warning: nested extern declaration of 'IoctlSocket' [-Wnested-externs]
-mingw32-make[1]: *** [CMakeFiles\cmTC_51825.dir\build.make:80: CMakeFiles/cmTC_51825.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: *** [CMakeFiles\cmTC_f2645.dir\build.make:80: CMakeFiles/cmTC_f2645.dir/CurlTests.c.obj] Error 1
 mingw32-make[1]: Leaving directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:133: cmTC_51825/fast] Error 2
+mingw32-make: *** [Makefile:133: cmTC_f2645/fast] Error 2
 
 
 Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
 Change Dir: 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9b800/fast
-C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9b800.dir\build.make CMakeFiles/cmTC_9b800.dir/build
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ba8ea/fast
+C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ba8ea.dir\build.make CMakeFiles/cmTC_ba8ea.dir/build
 mingw32-make[1]: Entering directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b800.dir/CurlTests.c.obj
-C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_9b800.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
+Building C object CMakeFiles/cmTC_ba8ea.dir/CurlTests.c.obj
+C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_IOCTL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_ba8ea.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:306:17: error: implicit declaration of function 'ioctl' [-Wimplicit-function-declaration]
   306 |         if(0 != ioctl(0, FIONBIO, &flags))
@@ -53,37 +53,37 @@ C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\cur
   306 |         if(0 != ioctl(0, FIONBIO, &flags))
       |                          ^~~~~~~
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:306:26: note: each undeclared identifier is reported only once for each function it appears in
-mingw32-make[1]: *** [CMakeFiles\cmTC_9b800.dir\build.make:80: CMakeFiles/cmTC_9b800.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: *** [CMakeFiles\cmTC_ba8ea.dir\build.make:80: CMakeFiles/cmTC_ba8ea.dir/CurlTests.c.obj] Error 1
 mingw32-make[1]: Leaving directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:133: cmTC_9b800/fast] Error 2
+mingw32-make: *** [Makefile:133: cmTC_ba8ea/fast] Error 2
 
 
 Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
 Change Dir: 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_af239/fast
-C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_af239.dir\build.make CMakeFiles/cmTC_af239.dir/build
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7270f/fast
+C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7270f.dir\build.make CMakeFiles/cmTC_7270f.dir/build
 mingw32-make[1]: Entering directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_af239.dir/CurlTests.c.obj
-C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_af239.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
+Building C object CMakeFiles/cmTC_7270f.dir/CurlTests.c.obj
+C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_7270f.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:367:43: error: 'SO_NONBLOCK' undeclared (first use in this function)
   367 |         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
       |                                           ^~~~~~~~~~~
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:367:43: note: each undeclared identifier is reported only once for each function it appears in
-mingw32-make[1]: *** [CMakeFiles\cmTC_af239.dir\build.make:80: CMakeFiles/cmTC_af239.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: *** [CMakeFiles\cmTC_7270f.dir\build.make:80: CMakeFiles/cmTC_7270f.dir/CurlTests.c.obj] Error 1
 mingw32-make[1]: Leaving directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:133: cmTC_af239/fast] Error 2
+mingw32-make: *** [Makefile:133: cmTC_7270f/fast] Error 2
 
 
 Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
 Change Dir: 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_093dd/fast
-C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_093dd.dir\build.make CMakeFiles/cmTC_093dd.dir/build
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a8f24/fast
+C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a8f24.dir\build.make CMakeFiles/cmTC_a8f24.dir/build
 mingw32-make[1]: Entering directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_093dd.dir/CurlTests.c.obj
-C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_POSIX_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_093dd.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
+Building C object CMakeFiles/cmTC_a8f24.dir/CurlTests.c.obj
+C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_POSIX_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_a8f24.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:392:6: warning: no previous prototype for 'check' [-Wmissing-prototypes]
   392 | void check(float f) {}
       |      ^~~~~
@@ -100,19 +100,19 @@ C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\cur
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:398:9: warning: conversion from 'int' to 'float' may change value [-Wconversion]
   398 |   check(strerror_r(EACCES, buffer, sizeof(buffer)));
       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-mingw32-make[1]: *** [CMakeFiles\cmTC_093dd.dir\build.make:80: CMakeFiles/cmTC_093dd.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: *** [CMakeFiles\cmTC_a8f24.dir\build.make:80: CMakeFiles/cmTC_a8f24.dir/CurlTests.c.obj] Error 1
 mingw32-make[1]: Leaving directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:133: cmTC_093dd/fast] Error 2
+mingw32-make: *** [Makefile:133: cmTC_a8f24/fast] Error 2
 
 
 Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
 Change Dir: 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e5781/fast
-C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e5781.dir\build.make CMakeFiles/cmTC_e5781.dir/build
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_14c4b/fast
+C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_14c4b.dir\build.make CMakeFiles/cmTC_14c4b.dir/build
 mingw32-make[1]: Entering directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5781.dir/CurlTests.c.obj
-C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_BUILTIN_AVAILABLE  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_e5781.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
+Building C object CMakeFiles/cmTC_14c4b.dir/CurlTests.c.obj
+C:\PROGRA~1\mingw64\bin\gcc.exe   -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Wcast-align -Wdeclaration-after-statement -Wempty-body -Wendif-labels -Wfloat-equal -Wignored-qualifiers -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -Wstrict-prototypes -Wtype-limits -Wvla -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wno-pedantic-ms-format -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=1 -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wunused-const-variable -DHAVE_BUILTIN_AVAILABLE  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_INTTYPES_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -o CMakeFiles\cmTC_14c4b.dir\CurlTests.c.obj -c C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c: In function 'main':
 C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\curl-src\CMake\CurlTests.c:430:6: error: implicit declaration of function '__builtin_available'; did you mean '__builtin_scalbl'? [-Wimplicit-function-declaration]
   430 |   if(__builtin_available(macOS 10.12, *)) {}
@@ -127,8 +127,8 @@ C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\cur
   430 |   if(__builtin_available(macOS 10.12, *)) {}
       |                         ~     ^~~~~~
       |                               )
-mingw32-make[1]: *** [CMakeFiles\cmTC_e5781.dir\build.make:80: CMakeFiles/cmTC_e5781.dir/CurlTests.c.obj] Error 1
+mingw32-make[1]: *** [CMakeFiles\cmTC_14c4b.dir\build.make:80: CMakeFiles/cmTC_14c4b.dir/CurlTests.c.obj] Error 1
 mingw32-make[1]: Leaving directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:133: cmTC_e5781/fast] Error 2
+mingw32-make: *** [Makefile:133: cmTC_14c4b/fast] Error 2
 
 

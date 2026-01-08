@@ -242,32 +242,22 @@ CMakeFiles/tests.dir/tests/login_tests.cpp.obj: \
  C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gtest/gtest_prod.h \
  C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gtest/gtest-typed-test.h \
  C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gtest/gtest_pred_impl.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/webdriver.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/client.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/session.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/element.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/by.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/types.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/error_handling.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/errors.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/keys.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock-actions.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/shared.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/keyboard.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/resource.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/error_handling.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/http_client.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/types.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/conversions.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/meta_tools.h \
- C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/picojson.h \
- C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/internal/gmock-internal-utils.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/internal/gmock-port.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/internal/custom/gmock-port.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/internal/gmock-pp.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock-cardinalities.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock-function-mocker.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock-spec-builders.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock-matchers.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cmath \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
@@ -283,6 +273,31 @@ CMakeFiles/tests.dir/tests/login_tests.cpp.obj: \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/poly_hermite.tcc \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/poly_laguerre.tcc \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/riemann_zeta.tcc \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/internal/custom/gmock-matchers.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock-generated-actions.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/internal/custom/gmock-generated-actions.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock-more-matchers.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/gmock/gmock-nice-strict.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/webdriver.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/client.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/session.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/element.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/by.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/types.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/error_handling.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/errors.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/keys.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/shared.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/keyboard.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/resource.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/error_handling.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/http_client.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/types.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/conversions.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/detail/meta_tools.h \
+ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/picojson.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
  C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/capabilities.h \
  C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/conversions.h \
  C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx/include/webdriverxx/picojson.h \
