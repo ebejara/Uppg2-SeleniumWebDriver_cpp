@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
 project(SeleniumWebDriverCpp)
-
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
 include(FetchContent)
 
 # GoogleTest
@@ -34,6 +30,12 @@ FetchContent_Declare(
     GIT_TAG 1.10.5  # Stabil version
 )
 FetchContent_MakeAvailable(cpr)
+
+#
+set(GTEST_FOUND TRUE)
+set(GTEST_LIBRARIES GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
+set(GTEST_INCLUDE_DIRS ${googletest_SOURCE_DIR}/googletest/include ${googletest_SOURCE_DIR}/googlemock/include)
+
 
 # webdriverxx som submodule
 add_subdirectory(extern/webdriverxx)

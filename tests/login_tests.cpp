@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
-#include <gmock/gmock.h>  // För ContainsSubstring och EXPECT_THAT
-#include <webdriverxx.h>  // Huvudheader
+#include <gmock/gmock.h>
+#include "webdriverxx.h"
 
 using namespace webdriverxx;
 
@@ -17,8 +17,6 @@ TEST(LoginTests, SuccessfulLogin_G) {
 
     EXPECT_EQ(driver.GetTitle(), "Swag Labs");
     EXPECT_TRUE(driver.FindElement(ByCss(".inventory_list")).IsDisplayed());
-
-    driver.Quit();
 }
 
 TEST(LoginTests, InvalidUsername_VG) {
@@ -32,9 +30,8 @@ TEST(LoginTests, InvalidUsername_VG) {
 
     Element error = driver.FindElement(ByCss("[data-test='error']"));
     EXPECT_TRUE(error.IsDisplayed());
-    EXPECT_THAT(error.GetText(), ::testing::ContainsSubstring("Username and password do not match"));
-
-    driver.Quit();
+    EXPECT_THAT(error.GetText(),
+                ::testing::HasSubstr("Username and password do not match"));
 }
 
 TEST(LoginTests, InvalidPassword_VG) {
@@ -48,7 +45,6 @@ TEST(LoginTests, InvalidPassword_VG) {
 
     Element error = driver.FindElement(ByCss("[data-test='error']"));
     EXPECT_TRUE(error.IsDisplayed());
-    EXPECT_THAT(error.GetText(), ::testing::ContainsSubstring("Username and password do not match"));
-
-    driver.Quit();
+    EXPECT_THAT(error.GetText(),
+                ::testing::HasSubstr("Username and password do not match"));
 }

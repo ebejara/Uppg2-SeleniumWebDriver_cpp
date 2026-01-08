@@ -1,37 +1,37 @@
 [
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\src\\main.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\src\\main.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/src/main.cpp",
   "output": "CMakeFiles/main.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tests.dir\\tests\\login_tests.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\tests\\login_tests.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/tests.dir/includes_CXX.rsp -g -o CMakeFiles\\tests.dir\\tests\\login_tests.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\tests\\login_tests.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/tests/login_tests.cpp",
   "output": "CMakeFiles/tests.dir/tests/login_tests.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googlemock",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS @CMakeFiles/gmock.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googlemock",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googletest",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googletest",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
 },

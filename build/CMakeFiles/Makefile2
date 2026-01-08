@@ -311,8 +311,8 @@ extern/webdriverxx/clean:
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
 CMakeFiles/main.dir/all: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/all
+CMakeFiles/main.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Built target main"
@@ -346,8 +346,8 @@ CMakeFiles/main.dir/clean:
 # All Build rule for target.
 CMakeFiles/tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-CMakeFiles/tests.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
 CMakeFiles/tests.dir/all: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/all
+CMakeFiles/tests.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=91 "Built target tests"

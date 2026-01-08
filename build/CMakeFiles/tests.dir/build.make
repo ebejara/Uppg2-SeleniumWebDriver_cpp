@@ -95,9 +95,9 @@ tests_EXTERNAL_OBJECTS =
 
 tests.exe: CMakeFiles/tests.dir/tests/login_tests.cpp.obj
 tests.exe: CMakeFiles/tests.dir/build.make
-tests.exe: lib/libgtest_main.a
+tests.exe: lib/libgtest_main.dll.a
 tests.exe: _deps/cpr-build/cpr/libcpr.dll.a
-tests.exe: lib/libgtest.a
+tests.exe: lib/libgtest.dll.a
 tests.exe: _deps/curl-build/lib/libcurl-d.dll.a
 tests.exe: CMakeFiles/tests.dir/linkLibs.rsp
 tests.exe: CMakeFiles/tests.dir/objects1.rsp
