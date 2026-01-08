@@ -1,0 +1,17 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/include/cmake_install.cmake",
+		"C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/extern/webdriverxx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

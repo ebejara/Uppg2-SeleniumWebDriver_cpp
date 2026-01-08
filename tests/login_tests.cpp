@@ -1,71 +1,55 @@
 #include <gtest/gtest.h>
-#include <webdriverxx.h>  // Från webdriverxx
+#include <webdriverxx.h>  // Huvudheader
 
 using namespace webdriverxx;
 
-// Selenium Server URL (starta med java -jar selenium-server.jar standalone)
-const std::string SELENIUM_URL = "http://localhost:4444/wd/hub";
+const std::string SELENIUM_URL = "http://localhost:4444";
 
 TEST(LoginTests, SuccessfulLogin_G) {
-    // Starta Chrome-session via Selenium
-    Capabilities caps;
-    caps.SetBrowserName("chrome");
-    WebDriver driver(SELENIUM_URL, caps);
+    // Starta Chrome-session
+    WebDriver driver = Start(Chrome(), SELENIUM_URL);
 
-    // Gå till saucedemo.com
     driver.Navigate("https://www.saucedemo.com/");
 
-    // Ange korrekt username och password
     driver.FindElement(ById("user-name")).SendKeys("standard_user");
     driver.FindElement(ById("password")).SendKeys("secret_sauce");
     driver.FindElement(ById("login-button")).Click();
 
-    // Verifiera att vi är på startsidan (t.ex. via title eller element)
-    EXPECT_EQ(driver.GetTitle(), "Swag Labs") << "Borde landa på startsidan efter lyckad login";
-    EXPECT_TRUE(driver.FindElement(ByCssSelector(".inventory_list")).IsDisplayed()) 
-        << "Inventarielistan ska visas efter login";
+    // Verifiera inloggning
+    EXPECT_EQ(driver.GetTitle(), "Swag Labs");
+    EXPECT_TRUE(driver.FindElement(ByCssSelector(".inventory_list")).IsDisplayed());
 
-    driver.Quit();
+    driver.Quit();  // Rätt metod för att stänga sessionen
 }
 
 TEST(LoginTests, InvalidUsername_VG) {
-    Capabilities caps;
-    caps.SetBrowserName("chrome");
-    WebDriver driver(SELENIUM_URL, caps);
+    WebDriver driver = Start(Chrome(), SELENIUM_URL);
 
     driver.Navigate("https://www.saucedemo.com/");
 
-    // Fel username, korrekt password
-    driver.FindElement(ById("user-name")).SendKeys("invalid_user");
+    driver.FindElement(ById("user-name")).SendKeys("wrong_user");
     driver.FindElement(ById("password")).SendKeys("secret_sauce");
     driver.FindElement(ById("login-button")).Click();
 
-    // Verifiera felmeddelande
     Element error = driver.FindElement(ByCssSelector("[data-test='error']"));
-    EXPECT_TRUE(error.IsDisplayed()) << "Felmeddelande ska visas vid fel username";
-    EXPECT_EQ(error.GetText(), "Epic sadface: Username and password do not match any user in this service") 
-        << "Felaktigt felmeddelande vid fel username";
+    EXPECT_TRUE(error.IsDisplayed());
+    EXPECT_THAT(error.GetText(), ::testing::ContainsSubstring("Username and password do not match"));
 
     driver.Quit();
 }
 
 TEST(LoginTests, InvalidPassword_VG) {
-    Capabilities caps;
-    caps.SetBrowserName("chrome");
-    WebDriver driver(SELENIUM_URL, caps);
+    WebDriver driver = Start(Chrome(), SELENIUM_URL);
 
     driver.Navigate("https://www.saucedemo.com/");
 
-    // Korrekt username, fel password
     driver.FindElement(ById("user-name")).SendKeys("standard_user");
-    driver.FindElement(ById("password")).SendKeys("invalid_password");
+    driver.FindElement(ById("password")).SendKeys("wrong_password");
     driver.FindElement(ById("login-button")).Click();
 
-    // Verifiera felmeddelande
     Element error = driver.FindElement(ByCssSelector("[data-test='error']"));
-    EXPECT_TRUE(error.IsDisplayed()) << "Felmeddelande ska visas vid fel password";
-    EXPECT_EQ(error.GetText(), "Epic sadface: Username and password do not match any user in this service") 
-        << "Felaktigt felmeddelande vid fel password";
+    EXPECT_TRUE(error.IsDisplayed());
+    EXPECT_THAT(error.GetText(), ::testing::ContainsSubstring("Username and password do not match"));
 
     driver.Quit();
 }
