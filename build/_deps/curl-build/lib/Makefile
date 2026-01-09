@@ -199,18 +199,18 @@ libcurl_object/fast:
 .PHONY : libcurl_object/fast
 
 # Convenience name for target.
-_deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/rule:
-	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/rule
-.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/rule
+_deps/curl-build/lib/CMakeFiles/libcurl_static.dir/rule:
+	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/rule
+.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/rule
 
 # Convenience name for target.
-libcurl_shared: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/rule
-.PHONY : libcurl_shared
+libcurl_static: _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/rule
+.PHONY : libcurl_static
 
 # fast build rule for target.
-libcurl_shared/fast:
-	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_shared.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/build
-.PHONY : libcurl_shared/fast
+libcurl_static/fast:
+	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_static.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/build
+.PHONY : libcurl_static/fast
 
 altsvc.obj: altsvc.c.obj
 .PHONY : altsvc.obj
@@ -2317,14 +2317,6 @@ ldap.c.s:
 	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\curlu.dir\build.make _deps/curl-build/lib/CMakeFiles/curlu.dir/ldap.c.s
 	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_object.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/ldap.c.s
 .PHONY : ldap.c.s
-
-libcurl.obj: libcurl.rc.obj
-.PHONY : libcurl.obj
-
-# target to build an object file
-libcurl.rc.obj:
-	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_shared.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/libcurl.rc.obj
-.PHONY : libcurl.rc.obj
 
 llist.obj: llist.c.obj
 .PHONY : llist.obj
@@ -4663,7 +4655,7 @@ help:
 	@echo ... test
 	@echo ... curlu
 	@echo ... libcurl_object
-	@echo ... libcurl_shared
+	@echo ... libcurl_static
 	@echo ... altsvc.obj
 	@echo ... altsvc.i
 	@echo ... altsvc.s
@@ -4898,7 +4890,6 @@ help:
 	@echo ... ldap.obj
 	@echo ... ldap.i
 	@echo ... ldap.s
-	@echo ... libcurl.obj
 	@echo ... llist.obj
 	@echo ... llist.i
 	@echo ... llist.s

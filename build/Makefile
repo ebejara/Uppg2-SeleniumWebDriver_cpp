@@ -249,19 +249,6 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named zlib
-
-# Build rule for target.
-zlib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zlib
-.PHONY : zlib
-
-# fast build rule for target.
-zlib/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/build
-.PHONY : zlib/fast
-
-#=============================================================================
 # Target rules for targets named curl_uninstall
 
 # Build rule for target.
@@ -301,17 +288,17 @@ libcurl_object/fast:
 .PHONY : libcurl_object/fast
 
 #=============================================================================
-# Target rules for targets named libcurl_shared
+# Target rules for targets named libcurl_static
 
 # Build rule for target.
-libcurl_shared: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libcurl_shared
-.PHONY : libcurl_shared
+libcurl_static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libcurl_static
+.PHONY : libcurl_static
 
 # fast build rule for target.
-libcurl_shared/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_shared.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/build
-.PHONY : libcurl_shared/fast
+libcurl_static/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_static.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/build
+.PHONY : libcurl_static/fast
 
 #=============================================================================
 # Target rules for targets named cpr
@@ -395,10 +382,9 @@ help:
 	@echo ... gtest
 	@echo ... gtest_main
 	@echo ... libcurl_object
-	@echo ... libcurl_shared
+	@echo ... libcurl_static
 	@echo ... main
 	@echo ... tests
-	@echo ... zlib
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

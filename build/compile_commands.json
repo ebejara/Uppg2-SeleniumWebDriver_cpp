@@ -1,243 +1,39 @@
 [
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\src\\main.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCURL_STATICLIB @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\src\\main.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/src/main.cpp",
   "output": "CMakeFiles/main.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/tests.dir/includes_CXX.rsp -g -o CMakeFiles\\tests.dir\\tests\\login_tests.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\tests\\login_tests.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCURL_STATICLIB @CMakeFiles/tests.dir/includes_CXX.rsp -g -o CMakeFiles\\tests.dir\\tests\\login_tests.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\tests\\login_tests.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/tests/login_tests.cpp",
   "output": "CMakeFiles/tests.dir/tests/login_tests.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googlemock",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS @CMakeFiles/gmock.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googlemock",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googletest",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googletest",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\adler32.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\adler32.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/adler32.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/adler32.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\chunkset.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\chunkset.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/chunkset.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/chunkset.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\compare258.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\compare258.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/compare258.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/compare258.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\compress.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\compress.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/compress.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/compress.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\crc32.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\crc32.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/crc32.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/crc32.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\crc32_comb.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\crc32_comb.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/crc32_comb.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/crc32_comb.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\deflate.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\deflate.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/deflate.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/deflate.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\deflate_fast.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\deflate_fast.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/deflate_fast.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/deflate_fast.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\deflate_medium.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\deflate_medium.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/deflate_medium.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/deflate_medium.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\deflate_quick.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\deflate_quick.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/deflate_quick.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/deflate_quick.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\deflate_slow.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\deflate_slow.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/deflate_slow.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/deflate_slow.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\functable.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\functable.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/functable.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/functable.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\infback.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\infback.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/infback.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/infback.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\inffast.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\inffast.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/inffast.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/inffast.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\inflate.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\inflate.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/inflate.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/inflate.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\inftrees.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\inftrees.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/inftrees.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/inftrees.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\insert_string.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\insert_string.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/insert_string.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/insert_string.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\trees.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\trees.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/trees.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/trees.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\uncompr.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\uncompr.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/uncompr.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\zutil.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\zutil.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/zutil.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/zutil.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\arch\\x86\\x86.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\x86.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/x86.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/x86.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -mavx2 -fno-lto -o CMakeFiles\\zlib.dir\\arch\\x86\\slide_avx.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\slide_avx.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/slide_avx.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_avx.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -mavx2 -fno-lto -o CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\chunkset_avx.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/chunkset_avx.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_avx.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -mavx2 -fno-lto -o CMakeFiles\\zlib.dir\\arch\\x86\\compare258_avx.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\compare258_avx.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/compare258_avx.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_avx.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -mavx2 -fno-lto -o CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\adler32_avx.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/adler32_avx.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_avx.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -msse4 -fno-lto -o CMakeFiles\\zlib.dir\\arch\\x86\\insert_string_sse.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\insert_string_sse.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/insert_string_sse.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/insert_string_sse.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -msse4 -fno-lto -o CMakeFiles\\zlib.dir\\arch\\x86\\compare258_sse.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\compare258_sse.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/compare258_sse.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/compare258_sse.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\chunkset_sse.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/chunkset_sse.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/chunkset_sse.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\arch\\x86\\slide_sse.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\slide_sse.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/slide_sse.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/slide_sse.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -mssse3 -fno-lto -o CMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\adler32_ssse3.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/adler32_ssse3.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/adler32_ssse3.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -mssse3 -msse4 -mpclmul -fno-lto -o CMakeFiles\\zlib.dir\\arch\\x86\\crc_folding.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\arch\\x86\\crc_folding.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/arch/x86/crc_folding.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/arch/x86/crc_folding.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\gzlib.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\gzlib.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/gzlib.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/gzlib.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\gzread.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\gzread.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/gzread.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/gzread.c.obj"
-},
-{
-  "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DHAVE_BUILTIN_CTZ -DHAVE_BUILTIN_CTZLL -DUNALIGNED64_OK -DUNALIGNED_OK -DWITH_GZFILEOP -DX86_AVX2 -DX86_AVX2_ADLER32 -DX86_AVX_CHUNKSET -DX86_FEATURES -DX86_PCLMULQDQ_CRC -DX86_SSE2 -DX86_SSE2_CHUNKSET -DX86_SSE2_SLIDEHASH -DX86_SSE42_CMP_STR -DX86_SSE42_CRC_HASH -DX86_SSE42_CRC_INTRIN -DX86_SSSE3 -DX86_SSSE3_ADLER32 -DZLIB_COMPAT -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64 @CMakeFiles/zlib.dir/includes_C.rsp  -Wall -Wno-implicit-fallthrough -g -DZLIB_DEBUG -std=c99 -o CMakeFiles\\zlib.dir\\gzwrite.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\zlib-src\\gzwrite.c",
-  "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src/gzwrite.c",
-  "output": "_deps/zlib-build/CMakeFiles/zlib.dir/gzwrite.c.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib",
@@ -2209,169 +2005,169 @@
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\accept_encoding.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\accept_encoding.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\accept_encoding.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\accept_encoding.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/accept_encoding.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/accept_encoding.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\async.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\async.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\async.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\async.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/async.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/async.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\auth.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\auth.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\auth.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\auth.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/auth.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\bearer.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\bearer.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\bearer.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\bearer.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/bearer.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\callback.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\callback.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\callback.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\callback.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/callback.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/callback.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\cert_info.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\cert_info.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\cert_info.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\cert_info.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/cert_info.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cert_info.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\cookies.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\cookies.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\cookies.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\cookies.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/cookies.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\cprtypes.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\cprtypes.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\cprtypes.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\cprtypes.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/cprtypes.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\curl_container.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\curl_container.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\curl_container.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\curl_container.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/curl_container.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\curlholder.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\curlholder.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\curlholder.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\curlholder.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/curlholder.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\error.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\error.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\error.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\error.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/error.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\file.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\file.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\file.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\file.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/file.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/file.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\multipart.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\multipart.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\multipart.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\multipart.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/multipart.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\parameters.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\parameters.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\parameters.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\parameters.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/parameters.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\payload.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\payload.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\payload.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\payload.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/payload.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\proxies.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\proxies.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\proxies.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\proxies.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/proxies.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\proxyauth.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\proxyauth.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\proxyauth.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\proxyauth.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/proxyauth.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxyauth.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\session.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\session.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\session.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\session.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/session.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\threadpool.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\threadpool.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\threadpool.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\threadpool.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/threadpool.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/threadpool.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\timeout.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\timeout.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\timeout.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\timeout.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/timeout.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\unix_socket.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\unix_socket.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\unix_socket.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\unix_socket.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/unix_socket.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\util.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\util.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\util.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\util.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/util.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\response.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\response.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\response.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\response.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/response.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\redirect.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\redirect.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\redirect.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\redirect.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/redirect.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/redirect.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\interceptor.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\interceptor.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\interceptor.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\interceptor.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/interceptor.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/interceptor.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\ssl_ctx.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\ssl_ctx.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\ssl_ctx.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\ssl_ctx.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/ssl_ctx.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ssl_ctx.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\curlmultiholder.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\curlmultiholder.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\curlmultiholder.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\curlmultiholder.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/curlmultiholder.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlmultiholder.cpp.obj"
 },
 {
   "directory": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/cpr",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -Dcpr_EXPORTS @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\multiperform.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\multiperform.cpp",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE -DCPR_CURL_NOSIGNAL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCURL_STATICLIB @CMakeFiles/cpr.dir/includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++17 -o CMakeFiles\\cpr.dir\\multiperform.cpp.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\_deps\\cpr-src\\cpr\\multiperform.cpp",
   "file": "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cpr/multiperform.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/multiperform.cpp.obj"
 }

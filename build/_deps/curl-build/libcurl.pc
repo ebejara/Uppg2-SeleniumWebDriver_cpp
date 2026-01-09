@@ -36,6 +36,6 @@ Name: libcurl
 URL: https://curl.se/
 Description: Library to transfer files with ftp, http, etc.
 Version: 8.4.0
-Libs: -L${libdir} -lcurl 
+Libs: -L${libdir} -lcurl  -lws2_32 -ladvapi32 -lcrypt32 -lbcrypt
 Libs.private:  -lws2_32 -ladvapi32 -lcrypt32 -lbcrypt
-Cflags: -I${includedir} 
+Cflags: -I${includedir} -DCURL_STATICLIB

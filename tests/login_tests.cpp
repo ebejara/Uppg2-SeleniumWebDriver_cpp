@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include "webdriverxx.h"
+#include <webdriverxx.h>
 
 using namespace webdriverxx;
 
@@ -20,7 +20,7 @@ TEST(LoginTests, SuccessfulLogin_G) {
 }
 
 TEST(LoginTests, InvalidUsername_VG) {
-    WebDriver driver = Start(Chrome(), SELENIUM_URL);
+     WebDriver driver = Start(Chrome(), SELENIUM_URL);
 
     driver.Navigate("https://www.saucedemo.com/");
 
@@ -30,8 +30,7 @@ TEST(LoginTests, InvalidUsername_VG) {
 
     Element error = driver.FindElement(ByCss("[data-test='error']"));
     EXPECT_TRUE(error.IsDisplayed());
-    EXPECT_THAT(error.GetText(),
-                ::testing::HasSubstr("Username and password do not match"));
+    EXPECT_THAT(error.GetText(), ::testing::HasSubstr("Username and password do not match"));
 }
 
 TEST(LoginTests, InvalidPassword_VG) {
@@ -45,6 +44,5 @@ TEST(LoginTests, InvalidPassword_VG) {
 
     Element error = driver.FindElement(ByCss("[data-test='error']"));
     EXPECT_TRUE(error.IsDisplayed());
-    EXPECT_THAT(error.GetText(),
-                ::testing::HasSubstr("Username and password do not match"));
+    EXPECT_THAT(error.GetText(), ::testing::HasSubstr("Username and password do not match"));
 }

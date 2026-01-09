@@ -1,5 +1,22 @@
 cmake_minimum_required(VERSION 3.14)
 project(SeleniumWebDriverCpp)
+
+# Tvinga statisk build överallt
+set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+
+# Specifikt för curl (som CPR bygger in):
+set(CURL_ZLIB OFF CACHE BOOL "" FORCE)        # Stänger av zlib helt
+set(CURL_USE_OPENSSL OFF CACHE BOOL "" FORCE) # Undvik OpenSSL-DLL:er om du inte behöver HTTPS (Selenium localhost är HTTP)
+
+# MinGW statisk runtime (för att undvika libgcc/libstdc++ DLL:er)
+if(MINGW)
+    add_link_options(-static -static-libgcc -static-libstdc++)
+endif()
+
+# Konsekvent output till bin/
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
 include(FetchContent)
 
 # GoogleTest
@@ -58,4 +75,4 @@ target_include_directories(tests PRIVATE
 target_link_libraries(tests PRIVATE GTest::gtest_main cpr::cpr )
 
 enable_testing()
-gtest_discover_tests(tests)
+#gtest_discover_tests(tests)

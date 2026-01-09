@@ -525,44 +525,42 @@ cpr_OBJECTS = \
 # External object files for target cpr
 cpr_EXTERNAL_OBJECTS =
 
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/accept_encoding.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/async.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/callback.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cert_info.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/file.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxyauth.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/threadpool.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/redirect.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/interceptor.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ssl_ctx.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlmultiholder.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multiperform.cpp.obj
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build.make
-_deps/cpr-build/cpr/libcpr.dll: _deps/curl-build/lib/libcurl-d.dll.a
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/linkLibs.rsp
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/objects1.rsp
-_deps/cpr-build/cpr/libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX shared library libcpr.dll"
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/accept_encoding.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/async.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/callback.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cert_info.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/file.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxyauth.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/threadpool.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/redirect.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/interceptor.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ssl_ctx.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlmultiholder.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multiperform.cpp.obj
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build.make
+_deps/cpr-build/cpr/libcpr.a: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX static library libcpr.a"
+	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\cpr-build\cpr && $(CMAKE_COMMAND) -P CMakeFiles\cpr.dir\cmake_clean_target.cmake
 	cd /d C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\_deps\cpr-build\cpr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cpr.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/build: _deps/cpr-build/cpr/libcpr.dll
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/build: _deps/cpr-build/cpr/libcpr.a
 .PHONY : _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build
 
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/clean:

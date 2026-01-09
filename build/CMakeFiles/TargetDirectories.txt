@@ -39,14 +39,6 @@ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/CMakeFiles/install.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/CMakeFiles/install/local.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build/CMakeFiles/install/strip.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/CMakeFiles/zlib.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/CMakeFiles/test.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/CMakeFiles/edit_cache.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/CMakeFiles/rebuild_cache.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/CMakeFiles/list_install_components.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/CMakeFiles/install.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/CMakeFiles/install/local.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build/CMakeFiles/install/strip.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/CMakeFiles/curl_uninstall.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/CMakeFiles/test.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/CMakeFiles/edit_cache.dir
@@ -57,7 +49,7 @@ C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cur
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/CMakeFiles/install/strip.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib/CMakeFiles/curlu.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib/CMakeFiles/libcurl_object.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib/CMakeFiles/libcurl_shared.dir
+C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib/CMakeFiles/libcurl_static.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib/CMakeFiles/test.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib/CMakeFiles/edit_cache.dir
 C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/curl-build/lib/CMakeFiles/rebuild_cache.dir

@@ -26,7 +26,7 @@
 prefix="C:/Program Files (x86)/SeleniumWebDriverCpp"
 exec_prefix=${prefix}
 includedir=${prefix}/include
-cppflag_curl_staticlib=
+cppflag_curl_staticlib=-DCURL_STATICLIB
 
 usage()
 {
@@ -70,7 +70,7 @@ while test $# -gt 0; do
 
     case "$1" in
     --built-shared)
-        echo yes
+        echo no
         ;;
 
     --ca)
@@ -162,7 +162,7 @@ while test $# -gt 0; do
         else
            CURLLIBDIR=""
         fi
-        if test "Xyes" = "Xno"; then
+        if test "Xno" = "Xno"; then
           echo ${CURLLIBDIR}-lcurl  -lws2_32 -ladvapi32 -lcrypt32 -lbcrypt
         else
           echo ${CURLLIBDIR}-lcurl
@@ -173,7 +173,7 @@ while test $# -gt 0; do
         ;;
 
     --static-libs)
-        if test "Xno" != "Xno" ; then
+        if test "Xyes" != "Xno" ; then
           echo "C:/Program Files (x86)/SeleniumWebDriverCpp/lib/libcurl.a"   -lws2_32 -ladvapi32 -lcrypt32 -lbcrypt
         else
           echo "curl was built with static libraries disabled" >&2

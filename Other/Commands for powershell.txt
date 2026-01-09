@@ -1,0 +1,4 @@
+set webdriver.chrome.driver=C:\selenium\chromedriver.exe
+java -jar selenium-server-standalone-3.141.59.jar
+
+java -Dwebdriver.chrome.driver="C:\\Program Files\\Selenium\\chromedriver-win64\\chromedriver.exe" -jar selenium-server.jar

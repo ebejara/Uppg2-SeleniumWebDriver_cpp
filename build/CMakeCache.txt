@@ -14,14 +14,11 @@
 # EXTERNAL cache entries
 ########################
 
-//Installation directory for executables
-BIN_INSTALL_DIR:PATH=C:/Program Files (x86)/SeleniumWebDriverCpp/bin
-
 //Builds the googlemock subproject
 BUILD_GMOCK:BOOL=ON
 
 //Build shared libraries
-BUILD_SHARED_LIBS:BOOL=ON
+BUILD_SHARED_LIBS:BOOL=OFF
 
 //Build curl executable with static libcurl
 BUILD_STATIC_CURL:BOOL=OFF
@@ -41,8 +38,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=C:/Program Files/mingw64/bin/g++.exe
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=C:/Program Files/mingw64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -70,8 +67,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=C:/Program Files/mingw64/bin/gcc.exe
+//C compiler
+CMAKE_C_COMPILER:STRING=C:/Program Files/mingw64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -612,8 +609,7 @@ CURL_WERROR:BOOL=OFF
 //Use windows libraries to allow NTLM authentication without OpenSSL
 CURL_WINDOWS_SSPI:BOOL=ON
 
-//Build curl with ZLIB support (AUTO, ON or OFF)
-CURL_ZLIB:STRING=AUTO
+CURL_ZLIB:BOOL=OFF
 
 //Set to ON to enable building curl with zstd support.
 CURL_ZSTD:BOOL=OFF
@@ -667,10 +663,6 @@ FETCHCONTENT_SOURCE_DIR_CURL:PATH=
 // for googletest
 FETCHCONTENT_SOURCE_DIR_GOOGLETEST:PATH=
 
-//When not empty, overrides where to find pre-populated content
-// for zlib
-FETCHCONTENT_SOURCE_DIR_ZLIB:PATH=
-
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
@@ -683,9 +675,6 @@ FETCHCONTENT_UPDATES_DISCONNECTED_CURL:BOOL=OFF
 //Enables UPDATE_DISCONNECTED behavior just for population of googletest
 FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
 
-//Enables UPDATE_DISCONNECTED behavior just for population of zlib
-FETCHCONTENT_UPDATES_DISCONNECTED_ZLIB:BOOL=OFF
-
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
@@ -693,15 +682,9 @@ GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
 
-//Installation directory for headers
-INC_INSTALL_DIR:PATH=C:/Program Files (x86)/SeleniumWebDriverCpp/include
-
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
-
-//Copy minigzip and minideflate during install
-INSTALL_UTILS:BOOL=OFF
 
 //Basename of the curl library
 LIBCURL_OUTPUT_NAME:STRING=libcurl
@@ -718,9 +701,6 @@ LIBSSH2_INCLUDE_DIR:PATH=LIBSSH2_INCLUDE_DIR-NOTFOUND
 //Path to a library.
 LIBSSH2_LIBRARY:FILEPATH=LIBSSH2_LIBRARY-NOTFOUND
 
-//Installation directory for libraries
-LIB_INSTALL_DIR:PATH=C:/Program Files (x86)/SeleniumWebDriverCpp/lib
-
 //Path to a program.
 MSYS_CMD:FILEPATH=MSYS_CMD-NOTFOUND
 
@@ -729,9 +709,6 @@ PERL_EXECUTABLE:FILEPATH=PERL_EXECUTABLE-NOTFOUND
 
 //Enable picky compiler options
 PICKY_COMPILER:BOOL=ON
-
-//Installation directory for pkgconfig (.pc) files
-PKGCONFIG_INSTALL_DIR:PATH=C:/Program Files (x86)/SeleniumWebDriverCpp/lib/pkgconfig
 
 //Path to a file.
 RANDOM_FILE:FILEPATH=RANDOM_FILE-NOTFOUND
@@ -762,67 +739,6 @@ USE_QUICHE:BOOL=OFF
 
 //Use WinIDN for IDN support
 USE_WIN32_IDN:BOOL=OFF
-
-//Build with AVX2
-WITH_AVX2:BOOL=ON
-
-//Enable code coverage reporting
-WITH_CODE_COVERAGE:BOOL=OFF
-
-//Build test/fuzz
-WITH_FUZZERS:BOOL=OFF
-
-//Compile with support for gzFile related functions
-WITH_GZFILEOP:BOOL=ON
-
-//Build with zero fill for inflate invalid distances
-WITH_INFLATE_ALLOW_INVALID_DIST:BOOL=OFF
-
-//Build with strict inflate distance checking
-WITH_INFLATE_STRICT:BOOL=OFF
-
-//Build with project maintainer warnings
-WITH_MAINTAINER_WARNINGS:BOOL=OFF
-
-//Instruct the compiler to use the full instruction set on this
-// host (gcc/clang -march=native)
-WITH_NATIVE_INSTRUCTIONS:BOOL=OFF
-
-//Use new strategies
-WITH_NEW_STRATEGIES:BOOL=ON
-
-//Build with optimisation
-WITH_OPTIM:BOOL=ON
-
-//Build with PCLMULQDQ
-WITH_PCLMULQDQ:BOOL=ON
-
-//Enable sanitizer support
-WITH_SANITIZER:STRING=AUTO
-
-//Build with SSE2
-WITH_SSE2:BOOL=ON
-
-//Build with SSE4
-WITH_SSE4:BOOL=ON
-
-//Build with SSSE3
-WITH_SSSE3:BOOL=ON
-
-//Support unaligned reads on platforms that support it
-WITH_UNALIGNED:BOOL=ON
-
-//Dual link tests against system zlib
-ZLIB_DUAL_LINK:BOOL=OFF
-
-//Path to a file.
-ZLIB_INCLUDE_DIR:PATH=ZLIB_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=ZLIB_LIBRARY_RELEASE-NOTFOUND
 
 //Value Computed by CMake
 cpr_BINARY_DIR:STATIC=C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-build
@@ -887,15 +803,6 @@ webdriverxx_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 webdriverxx_SOURCE_DIR:STATIC=C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/extern/webdriverxx
-
-//Value Computed by CMake
-zlib_BINARY_DIR:STATIC=C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-build
-
-//Value Computed by CMake
-zlib_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-zlib_SOURCE_DIR:STATIC=C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/zlib-src
 
 
 ########################
@@ -1052,7 +959,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1214,28 +1121,16 @@ DETECT_SSL_BACKEND:INTERNAL=ON
 ENABLE_IPV6-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//Test FNO_LTO_AVAILABLE
-FNO_LTO_AVAILABLE:INTERNAL=1
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Have symbol alarm
 HAVE_ALARM:INTERNAL=
 //Curl test 
 HAVE_ATOMIC:INTERNAL=1
-//Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN
-HAVE_ATTRIBUTE_VISIBILITY_HIDDEN:INTERNAL=
-//Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL
-HAVE_ATTRIBUTE_VISIBILITY_INTERNAL:INTERNAL=
-//Test HAVE_AVX2_INTRIN
-HAVE_AVX2_INTRIN:INTERNAL=1
 //Curl test 
 HAVE_BOOL_T:INTERNAL=1
 //Curl test 
 HAVE_BUILTIN_AVAILABLE:INTERNAL=
-//Test HAVE_BUILTIN_CTZ
-HAVE_BUILTIN_CTZ:INTERNAL=1
-//Test HAVE_BUILTIN_CTZLL
-HAVE_BUILTIN_CTZLL:INTERNAL=1
 //Curl test 
 HAVE_CLOCK_GETTIME_MONOTONIC:INTERNAL=1
 //Have symbol fchmod
@@ -1247,8 +1142,6 @@ HAVE_FCNTL_O_NONBLOCK:INTERNAL=0
 HAVE_FILE_OFFSET_BITS:INTERNAL=1
 //Have symbol freeaddrinfo
 HAVE_FREEADDRINFO:INTERNAL=1
-//Have function fseeko
-HAVE_FSEEKO:INTERNAL=1
 //Have symbol fsetxattr
 HAVE_FSETXATTR:INTERNAL=
 //Have symbol ftruncate
@@ -1289,21 +1182,11 @@ HAVE_LIBIDN2:INTERNAL=
 HAVE_LOCALE_H:INTERNAL=1
 //Test HAVE_MSG_NOSIGNAL
 HAVE_MSG_NOSIGNAL:INTERNAL=
-//Test HAVE_NO_INTERPOSITION
-HAVE_NO_INTERPOSITION:INTERNAL=1
-//Result of TRY_COMPILE
-HAVE_OFF64_T:INTERNAL=TRUE
 HAVE_O_NONBLOCK:INTERNAL=0
-//Test HAVE_PCLMULQDQ_INTRIN
-HAVE_PCLMULQDQ_INTRIN:INTERNAL=1
 //Have symbol pipe
 HAVE_PIPE:INTERNAL=
-//Have function posix_memalign
-HAVE_POSIX_MEMALIGN:INTERNAL=
 //Curl test 
 HAVE_POSIX_STRERROR_R:INTERNAL=
-//Test HAVE_PTRDIFF_T
-HAVE_PTRDIFF_T:INTERNAL=1
 //Have symbol recv
 HAVE_RECV:INTERNAL=1
 //Have symbol send
@@ -1350,28 +1233,16 @@ HAVE_SIZEOF_TIME_T:INTERNAL=TRUE
 HAVE_SIZEOF___INT64:INTERNAL=TRUE
 //Have symbol socketpair
 HAVE_SOCKETPAIR:INTERNAL=
-//Test HAVE_SSE2_INTRIN
-HAVE_SSE2_INTRIN:INTERNAL=1
-//Test HAVE_SSE42CMPSTR_INTRIN
-HAVE_SSE42CMPSTR_INTRIN:INTERNAL=1
-//Test HAVE_SSE42CRC_INLINE_ASM
-HAVE_SSE42CRC_INLINE_ASM:INTERNAL=1
-//Test HAVE_SSE42CRC_INTRIN
-HAVE_SSE42CRC_INTRIN:INTERNAL=1
-//Test HAVE_SSSE3_INTRIN
-HAVE_SSSE3_INTRIN:INTERNAL=1
 //Have include windows.h;ws2tcpip.h;winsock2.h;inttypes.h;sys/stat.h;sys/types.h;sys/utime.h;fcntl.h;io.h;libgen.h;locale.h;stdatomic.h
 HAVE_STDATOMIC_H:INTERNAL=1
 //Have include windows.h;ws2tcpip.h;winsock2.h;inttypes.h;sys/stat.h;sys/types.h;sys/utime.h;fcntl.h;io.h;libgen.h;locale.h;stdatomic.h;stdbool.h
 HAVE_STDBOOL_H:INTERNAL=1
 //Have include stddef.h
 HAVE_STDDEF_H:INTERNAL=1
-//Have include stdint.h
+//Have include windows.h;ws2tcpip.h;winsock2.h;inttypes.h;sys/stat.h;sys/types.h;sys/utime.h;fcntl.h;io.h;libgen.h;locale.h;stdatomic.h;stdbool.h;stdint.h
 HAVE_STDINT_H:INTERNAL=1
 //Have symbol strcasecmp
 HAVE_STRCASECMP:INTERNAL=1
-//Have function strerror
-HAVE_STRERROR:INTERNAL=1
 //Have symbol strerror_r
 HAVE_STRERROR_R:INTERNAL=
 //Have includes windows.h;ws2tcpip.h;winsock2.h;inttypes.h;sys/stat.h;sys/types.h;sys/utime.h;fcntl.h;io.h;libgen.h;locale.h;stdatomic.h;stdbool.h;stdint.h;stropts.h
@@ -1380,14 +1251,8 @@ HAVE_STROPTS_H:INTERNAL=
 HAVE_STRTOK_R:INTERNAL=1
 //Test HAVE_STRUCT_TIMEVAL
 HAVE_STRUCT_TIMEVAL:INTERNAL=1
-//Have include sys/sdt.h
-HAVE_SYS_SDT_H:INTERNAL=
-//Have include sys/types.h
-HAVE_SYS_TYPES_H:INTERNAL=1
 //Have includes windows.h;ws2tcpip.h;winsock2.h;inttypes.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h
 HAVE_SYS_XATTR_H:INTERNAL=
-//Have include unistd.h
-HAVE_UNISTD_H:INTERNAL=1
 //Have symbol utimes
 HAVE_UTIMES:INTERNAL=
 //Curl test 
@@ -1401,8 +1266,6 @@ HTTP_ONLY-ADVANCED:INTERNAL=1
 //disables all protocols except HTTP (This overrides all CURL_DISABLE_*
 // options)
 HTTP_ONLY:INTERNAL=ON
-//ADVANCED property for variable: INSTALL_UTILS
-INSTALL_UTILS-ADVANCED:INTERNAL=1
 //Test LEAK_SANITIZER_AVAILABLE
 LEAK_SANITIZER_AVAILABLE:INTERNAL=1
 //ADVANCED property for variable: LIBPSL_INCLUDE_DIR
@@ -1415,8 +1278,6 @@ LIBSSH2_INCLUDE_DIR-ADVANCED:INTERNAL=1
 LIBSSH2_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MSYS_CMD
 MSYS_CMD-ADVANCED:INTERNAL=1
-//CHECK_TYPE_SIZE: sizeof(off64_t)
-OFF64_T:INTERNAL=8
 //Test OPT_Wdouble_promotion
 OPT_Wdouble_promotion:INTERNAL=1
 //Test OPT_Wenum_conversion
@@ -1461,36 +1322,6 @@ THREAD_SANITIZER_AVAILABLE:INTERNAL=
 THREAD_SANITIZER_AVAILABLE_COMPILED:INTERNAL=FALSE
 //Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE
 UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE:INTERNAL=1
-//ADVANCED property for variable: WITH_AVX2
-WITH_AVX2-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: WITH_INFLATE_ALLOW_INVALID_DIST
-WITH_INFLATE_ALLOW_INVALID_DIST-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: WITH_INFLATE_STRICT
-WITH_INFLATE_STRICT-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: WITH_PCLMULQDQ
-WITH_PCLMULQDQ-ADVANCED:INTERNAL=1
-//STRINGS property for variable: WITH_SANITIZER
-WITH_SANITIZER-STRINGS:INTERNAL=Memory;Address;Undefined;Thread
-//ADVANCED property for variable: WITH_SSE2
-WITH_SSE2-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: WITH_SSE4
-WITH_SSE4-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: WITH_SSSE3
-WITH_SSSE3-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: WITH_UNALIGNED
-WITH_UNALIGNED-ADVANCED:INTERNAL=1
-//Compile with zlib compatible API
-ZLIB_COMPAT:INTERNAL=ON
-//ADVANCED property for variable: ZLIB_DUAL_LINK
-ZLIB_DUAL_LINK-ADVANCED:INTERNAL=1
-//Build test binaries
-ZLIB_ENABLE_TESTS:INTERNAL=OFF
-//ADVANCED property for variable: ZLIB_INCLUDE_DIR
-ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
-ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
-ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/SeleniumWebDriverCpp
 //Compiler reason failure
@@ -1504,8 +1335,6 @@ _Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 cmake_package_name:INTERNAL=GTest
-//Result of TRY_COMPILE
-compile_result_unused:INTERNAL=FALSE
 generated_dir:INTERNAL=C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/googletest-build/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1

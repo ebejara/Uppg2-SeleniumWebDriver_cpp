@@ -55,9 +55,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpr.dir/unix_socket.cpp.obj.d"
   "CMakeFiles/cpr.dir/util.cpp.obj"
   "CMakeFiles/cpr.dir/util.cpp.obj.d"
-  "libcpr.dll"
-  "libcpr.dll.a"
-  "libcpr.dll.manifest"
+  "libcpr.a"
   "libcpr.pdb"
 )
 

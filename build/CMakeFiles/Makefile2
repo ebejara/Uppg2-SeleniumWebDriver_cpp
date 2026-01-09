@@ -95,28 +95,24 @@ clean: extern/webdriverxx/clean
 # Directory level rules for directory _deps/cpr-build
 
 # Recursive "all" directory target.
-_deps/cpr-build/all: _deps/zlib-build/all
 _deps/cpr-build/all: _deps/curl-build/all
 _deps/cpr-build/all: _deps/cpr-build/cpr/all
 _deps/cpr-build/all: _deps/cpr-build/include/all
 .PHONY : _deps/cpr-build/all
 
 # Recursive "codegen" directory target.
-_deps/cpr-build/codegen: _deps/zlib-build/codegen
 _deps/cpr-build/codegen: _deps/curl-build/codegen
 _deps/cpr-build/codegen: _deps/cpr-build/cpr/codegen
 _deps/cpr-build/codegen: _deps/cpr-build/include/codegen
 .PHONY : _deps/cpr-build/codegen
 
 # Recursive "preinstall" directory target.
-_deps/cpr-build/preinstall: _deps/zlib-build/preinstall
 _deps/cpr-build/preinstall: _deps/curl-build/preinstall
 _deps/cpr-build/preinstall: _deps/cpr-build/cpr/preinstall
 _deps/cpr-build/preinstall: _deps/cpr-build/include/preinstall
 .PHONY : _deps/cpr-build/preinstall
 
 # Recursive "clean" directory target.
-_deps/cpr-build/clean: _deps/zlib-build/clean
 _deps/cpr-build/clean: _deps/curl-build/clean
 _deps/cpr-build/clean: _deps/cpr-build/cpr/clean
 _deps/cpr-build/clean: _deps/cpr-build/include/clean
@@ -185,12 +181,12 @@ _deps/curl-build/clean: _deps/curl-build/lib/clean
 
 # Recursive "all" directory target.
 _deps/curl-build/lib/all: _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/all
-_deps/curl-build/lib/all: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
+_deps/curl-build/lib/all: _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/all
 .PHONY : _deps/curl-build/lib/all
 
 # Recursive "codegen" directory target.
 _deps/curl-build/lib/codegen: _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/codegen
-_deps/curl-build/lib/codegen: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/codegen
+_deps/curl-build/lib/codegen: _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/codegen
 .PHONY : _deps/curl-build/lib/codegen
 
 # Recursive "preinstall" directory target.
@@ -200,7 +196,7 @@ _deps/curl-build/lib/preinstall:
 # Recursive "clean" directory target.
 _deps/curl-build/lib/clean: _deps/curl-build/lib/CMakeFiles/curlu.dir/clean
 _deps/curl-build/lib/clean: _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/clean
-_deps/curl-build/lib/clean: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/clean
+_deps/curl-build/lib/clean: _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/clean
 .PHONY : _deps/curl-build/lib/clean
 
 #=============================================================================
@@ -270,25 +266,6 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 .PHONY : _deps/googletest-build/googletest/clean
 
 #=============================================================================
-# Directory level rules for directory _deps/zlib-build
-
-# Recursive "all" directory target.
-_deps/zlib-build/all: _deps/zlib-build/CMakeFiles/zlib.dir/all
-.PHONY : _deps/zlib-build/all
-
-# Recursive "codegen" directory target.
-_deps/zlib-build/codegen: _deps/zlib-build/CMakeFiles/zlib.dir/codegen
-.PHONY : _deps/zlib-build/codegen
-
-# Recursive "preinstall" directory target.
-_deps/zlib-build/preinstall:
-.PHONY : _deps/zlib-build/preinstall
-
-# Recursive "clean" directory target.
-_deps/zlib-build/clean: _deps/zlib-build/CMakeFiles/zlib.dir/clean
-.PHONY : _deps/zlib-build/clean
-
-#=============================================================================
 # Directory level rules for directory extern/webdriverxx
 
 # Recursive "all" directory target.
@@ -311,16 +288,16 @@ extern/webdriverxx/clean:
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
+CMakeFiles/main.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/all
 CMakeFiles/main.dir/all: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/all
-CMakeFiles/main.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=99 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -332,7 +309,7 @@ main: CMakeFiles/main.dir/rule
 # codegen rule for target.
 CMakeFiles/main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Finished codegen for target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=99 "Finished codegen for target main"
 .PHONY : CMakeFiles/main.dir/codegen
 
 # clean rule for target.
@@ -346,16 +323,16 @@ CMakeFiles/main.dir/clean:
 # All Build rule for target.
 CMakeFiles/tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/tests.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/all
 CMakeFiles/tests.dir/all: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/all
-CMakeFiles/tests.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=91 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=100 "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 53
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
@@ -367,7 +344,7 @@ tests: CMakeFiles/tests.dir/rule
 # codegen rule for target.
 CMakeFiles/tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tests.dir\build.make CMakeFiles/tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=91 "Finished codegen for target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=100 "Finished codegen for target tests"
 .PHONY : CMakeFiles/tests.dir/codegen
 
 # clean rule for target.
@@ -382,12 +359,12 @@ CMakeFiles/tests.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=48 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
@@ -399,7 +376,7 @@ gmock: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=48 "Finished codegen for target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Finished codegen for target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
 
 # clean rule for target.
@@ -415,12 +392,12 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=53 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
@@ -432,7 +409,7 @@ gmock_main: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Finished codegen for target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=53 "Finished codegen for target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
 
 # clean rule for target.
@@ -447,12 +424,12 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=49 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
@@ -464,7 +441,7 @@ gtest: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=49 "Finished codegen for target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Finished codegen for target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
 
 # clean rule for target.
@@ -479,7 +456,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=54 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -496,45 +473,13 @@ gtest_main: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Finished codegen for target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=54 "Finished codegen for target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
 
 # clean rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/clean
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/clean
-
-#=============================================================================
-# Target rules for target _deps/zlib-build/CMakeFiles/zlib.dir
-
-# All Build rule for target.
-_deps/zlib-build/CMakeFiles/zlib.dir/all:
-	$(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/depend
-	$(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=92,93,94,95,96,97,98,99,100 "Built target zlib"
-.PHONY : _deps/zlib-build/CMakeFiles/zlib.dir/all
-
-# Build rule for subdir invocation for target.
-_deps/zlib-build/CMakeFiles/zlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/zlib-build/CMakeFiles/zlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
-.PHONY : _deps/zlib-build/CMakeFiles/zlib.dir/rule
-
-# Convenience name for target.
-zlib: _deps/zlib-build/CMakeFiles/zlib.dir/rule
-.PHONY : zlib
-
-# codegen rule for target.
-_deps/zlib-build/CMakeFiles/zlib.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=92,93,94,95,96,97,98,99,100 "Finished codegen for target zlib"
-.PHONY : _deps/zlib-build/CMakeFiles/zlib.dir/codegen
-
-# clean rule for target.
-_deps/zlib-build/CMakeFiles/zlib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/clean
-.PHONY : _deps/zlib-build/CMakeFiles/zlib.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/curl-build/CMakeFiles/curl_uninstall.dir
@@ -575,12 +520,12 @@ _deps/curl-build/CMakeFiles/curl_uninstall.dir/clean:
 _deps/curl-build/lib/CMakeFiles/curlu.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\curlu.dir\build.make _deps/curl-build/lib/CMakeFiles/curlu.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\curlu.dir\build.make _deps/curl-build/lib/CMakeFiles/curlu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target curlu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target curlu"
 .PHONY : _deps/curl-build/lib/CMakeFiles/curlu.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/curl-build/lib/CMakeFiles/curlu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/curl-build/lib/CMakeFiles/curlu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 .PHONY : _deps/curl-build/lib/CMakeFiles/curlu.dir/rule
@@ -592,7 +537,7 @@ curlu: _deps/curl-build/lib/CMakeFiles/curlu.dir/rule
 # codegen rule for target.
 _deps/curl-build/lib/CMakeFiles/curlu.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\curlu.dir\build.make _deps/curl-build/lib/CMakeFiles/curlu.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Finished codegen for target curlu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Finished codegen for target curlu"
 .PHONY : _deps/curl-build/lib/CMakeFiles/curlu.dir/codegen
 
 # clean rule for target.
@@ -607,12 +552,12 @@ _deps/curl-build/lib/CMakeFiles/curlu.dir/clean:
 _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_object.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_object.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target libcurl_object"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target libcurl_object"
 .PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 .PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/rule
@@ -624,7 +569,7 @@ libcurl_object: _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/rule
 # codegen rule for target.
 _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_object.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Finished codegen for target libcurl_object"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Finished codegen for target libcurl_object"
 .PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/codegen
 
 # clean rule for target.
@@ -633,42 +578,42 @@ _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/clean:
 .PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/clean
 
 #=============================================================================
-# Target rules for target _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir
+# Target rules for target _deps/curl-build/lib/CMakeFiles/libcurl_static.dir
 
 # All Build rule for target.
-_deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/all
-	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_shared.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/depend
-	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_shared.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=90 "Built target libcurl_shared"
-.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
+_deps/curl-build/lib/CMakeFiles/libcurl_static.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_object.dir/all
+	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_static.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/depend
+	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_static.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Built target libcurl_static"
+.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/all
 
 # Build rule for subdir invocation for target.
-_deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 41
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
+_deps/curl-build/lib/CMakeFiles/libcurl_static.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 44
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
-.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/rule
+.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/rule
 
 # Convenience name for target.
-libcurl_shared: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/rule
-.PHONY : libcurl_shared
+libcurl_static: _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/rule
+.PHONY : libcurl_static
 
 # codegen rule for target.
-_deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_shared.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=90 "Finished codegen for target libcurl_shared"
-.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/codegen
+_deps/curl-build/lib/CMakeFiles/libcurl_static.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_static.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num= "Finished codegen for target libcurl_static"
+.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/codegen
 
 # clean rule for target.
-_deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/clean:
-	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_shared.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/clean
-.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/clean
+_deps/curl-build/lib/CMakeFiles/libcurl_static.dir/clean:
+	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl_static.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/clean
+.PHONY : _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/cpr-build/cpr/CMakeFiles/cpr.dir
 
 # All Build rule for target.
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_shared.dir/all
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/all: _deps/curl-build/lib/CMakeFiles/libcurl_static.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target cpr"
@@ -676,7 +621,7 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/all: _deps/curl-build/lib/CMakeFiles/libc
 
 # Build rule for subdir invocation for target.
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 51
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Enrique\Documents\VScode\CI\Uppg2-SeleniumWebDriver_cpp\build\CMakeFiles 0
 .PHONY : _deps/cpr-build/cpr/CMakeFiles/cpr.dir/rule

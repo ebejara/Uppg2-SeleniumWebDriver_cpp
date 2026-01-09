@@ -1,1 +1,1 @@
- lib/libgtest_main.dll.a "_deps/cpr-build/cpr/libcpr.dll.a" lib/libgtest.dll.a "_deps/curl-build/lib/libcurl-d.dll.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ lib/libgtest_main.a "_deps/cpr-build/cpr/libcpr.a" lib/libgtest.a "_deps/curl-build/lib/libcurl-d.a" -lws2_32 -ladvapi32 -lcrypt32 -lbcrypt -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
