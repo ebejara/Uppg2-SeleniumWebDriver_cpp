@@ -1,0 +1,3 @@
+[submodule "extern/webdriverx"]
+	path = extern/webdriverx
+	url = https://github.com/GermanAizek/webdriverxx
