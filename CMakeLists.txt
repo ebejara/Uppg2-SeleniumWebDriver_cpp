@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-# GoogleTest
+# GoogleTest (still using FetchContent)
 include(FetchContent)
 FetchContent_Declare(
     googletest
@@ -21,27 +21,22 @@ enable_testing()
 FetchContent_Declare(
     cpr
     GIT_REPOSITORY https://github.com/libcpr/cpr.git
-    GIT_TAG 1.10.5  # stable version
+    GIT_TAG 1.10.5
 )
 FetchContent_MakeAvailable(cpr)
 
-# webdriverxx
-FetchContent_Declare(
-    webdriverxx
-    GIT_REPOSITORY https://github.com/GermanAizek/webdriverxx.git
-    GIT_TAG master
-)
-FetchContent_MakeAvailable(webdriverxx)
+# webdriverxx – now using local submodule (with your patch!)
+add_subdirectory(extern/webdriverx)
 
 add_executable(tests tests/login_tests.cpp)
 
 target_include_directories(tests PRIVATE 
-    ${webdriverxx_SOURCE_DIR}/include
+    extern/webdriverx/include
 )
 
 target_link_libraries(tests PRIVATE 
     webdriverxx 
-    cpr::cpr          # This includes libcurl automatically
+    cpr::cpr 
     GTest::gtest_main
 )
 
