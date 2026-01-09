@@ -14,12 +14,14 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
 
 int main(int argc, char** argv)
 {
   (void)argv;
-#ifndef ftruncate
-  return ((int*)(&ftruncate))[argc];
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
 #else
   (void)argc;
   return 0;

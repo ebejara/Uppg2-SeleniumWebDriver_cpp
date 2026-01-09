@@ -1,3 +1,0 @@
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-it1eku/CMakeFiles/cmTC_0140b.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-it1eku/CMakeFiles/edit_cache.dir
-C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-it1eku/CMakeFiles/rebuild_cache.dir

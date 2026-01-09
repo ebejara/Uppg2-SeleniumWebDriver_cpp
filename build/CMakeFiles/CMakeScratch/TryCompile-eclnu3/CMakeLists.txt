@@ -18,11 +18,11 @@ cmake_policy(SET CMP0155 OLD)
 cmake_policy(SET CMP0157 OLD)
 cmake_policy(SET CMP0181 OLD)
 include("${CMAKE_ROOT}/Modules/Internal/HeaderpadWorkaround.cmake")
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-it1eku")
-add_executable(cmTC_0140b)
-target_sources(cmTC_0140b PRIVATE
-  "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-it1eku/CheckSymbolExists.c"
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-eclnu3")
+add_executable(cmTC_21743)
+target_sources(cmTC_21743 PRIVATE
+  "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-eclnu3/CheckSymbolExists.c"
 )
-file(GENERATE OUTPUT "${CMAKE_BINARY_DIR}/cmTC_0140b_loc"
-     CONTENT $<TARGET_FILE:cmTC_0140b>)
-target_link_libraries(cmTC_0140b  "ws2_32" )
+file(GENERATE OUTPUT "${CMAKE_BINARY_DIR}/cmTC_21743_loc"
+     CONTENT $<TARGET_FILE:cmTC_21743>)
+target_link_libraries(cmTC_21743  "ws2_32" )
