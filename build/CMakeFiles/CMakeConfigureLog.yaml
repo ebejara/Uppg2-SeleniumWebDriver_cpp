@@ -4361,3 +4361,39 @@ events:
         mingw32-make[1]: Leaving directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-5a4a5q'
         
       exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "build/_deps/zlib-src/CMakeLists.txt:485 (check_c_source_compiles)"
+      - "build/_deps/zlib-src/CMakeLists.txt:583 (check_c_source_compile_or_run)"
+    checks:
+      - "Performing Test HAVE_PCLMULQDQ_INTRIN"
+    directories:
+      source: "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-0m7f0u"
+      binary: "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-0m7f0u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wno-implicit-fallthrough"
+      CMAKE_C_FLAGS_DEBUG: "-g -DZLIB_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/_deps/cpr-src/cmake;"
+    buildResult:
+      variable: "HAVE_PCLMULQDQ_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-0m7f0u'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_315e2/fast
+        C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_315e2.dir\\build.make CMakeFiles/cmTC_315e2.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-0m7f0u'
+        Building C object CMakeFiles/cmTC_315e2.dir/src.c.obj
+        C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -DHAVE_PCLMULQDQ_INTRIN  -Wall -Wno-implicit-fallthrough -mpclmul -std=c99 -o CMakeFiles\\cmTC_315e2.dir\\src.c.obj -c C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0m7f0u\\src.c
+        Linking C executable cmTC_315e2.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_315e2.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_315e2.dir/objects.a
+        C:\\PROGRA~1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_315e2.dir/objects.a @CMakeFiles\\cmTC_315e2.dir\\objects1.rsp
+        C:\\PROGRA~1\\mingw64\\bin\\gcc.exe  -Wall -Wno-implicit-fallthrough -mpclmul -Wl,--whole-archive CMakeFiles\\cmTC_315e2.dir/objects.a -Wl,--no-whole-archive -o cmTC_315e2.exe -Wl,--out-implib,libcmTC_315e2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_315e2.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Enrique/Documents/VScode/CI/Uppg2-SeleniumWebDriver_cpp/build/CMakeFiles/CMakeScratch/TryCompile-0m7f0u'
+        
+      exitCode: 0
