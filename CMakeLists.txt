@@ -1,6 +1,12 @@
 cmake_minimum_required(VERSION 3.14)
 project(SeleniumWebDriverCpp)
 
+# Lägg till Selenium C++ som subdirectory
+add_subdirectory(extern/selenium/cpp)
+
+# Länk dina tester mot selenium-cpp
+target_link_libraries(tests PRIVATE selenium-cpp)
+
 # Tvinga statisk build överallt
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
 
@@ -59,20 +65,13 @@ add_subdirectory(extern/webdriverxx)
 
 # Main (om du har)
 add_executable(main src/main.cpp)
-target_include_directories(main PRIVATE 
-    include 
-    extern/webdriverxx/include
-)
 
-target_link_libraries(main PRIVATE cpr::cpr )
+target_link_libraries(main PRIVATE cpr::cpr selenium )
 
 # Tester
 add_executable(tests tests/login_tests.cpp)
-target_include_directories(tests PRIVATE 
-    include 
-    extern/webdriverxx/include   # ← KRITISK RAD!
-)
-target_link_libraries(tests PRIVATE GTest::gtest_main cpr::cpr )
+
+target_link_libraries(tests PRIVATE GTest::gtest_main cpr::cpr selenium )
 
 enable_testing()
 #gtest_discover_tests(tests)
