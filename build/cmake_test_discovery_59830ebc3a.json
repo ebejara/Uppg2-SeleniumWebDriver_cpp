@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "LoginTests",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "SuccessfulLogin",
+          "file": "C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\tests\\login_tests.cpp",
+          "line": 29
+        },
+        {
+          "name": "InvalidUsername",
+          "file": "C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\tests\\login_tests.cpp",
+          "line": 58
+        },
+        {
+          "name": "InvalidPassword",
+          "file": "C:\\Users\\Enrique\\Documents\\VScode\\CI\\Uppg2-SeleniumWebDriver_cpp\\tests\\login_tests.cpp",
+          "line": 75
+        }
+      ]
+    }
+  ]
+}

@@ -327,7 +327,7 @@
 /* #undef HAVE_IOCTLSOCKET_CAMEL_FIONBIO */
 
 /* Define to 1 if you have a working ioctlsocket FIONBIO function. */
-/* #undef HAVE_IOCTLSOCKET_FIONBIO */
+#define HAVE_IOCTLSOCKET_FIONBIO 1
 
 /* Define to 1 if you have a working ioctl FIONBIO function. */
 /* #undef HAVE_IOCTL_FIONBIO */
